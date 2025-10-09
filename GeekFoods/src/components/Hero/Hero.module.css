@@ -1,0 +1,84 @@
+.container {
+  background-image: url(../../assets/images/HeroImg.avif);
+  height: 95%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentContainer {
+  height: 35%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heading {
+  height: 25%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.heading1 {
+  color: white;
+}
+
+.heading2 {
+  color: rgb(225, 30, 72);
+}
+
+.paraContainer {
+  margin-top: 0rem;
+  height: 15%;
+  width: 50%;
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.buttonContainer {
+  width: 35%;
+  height: 22%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.buttonContainer > button {
+  padding: 0.7rem 2.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+.btn1 {
+  color: white;
+  background-color: rgb(225, 30, 72);
+}
+
+.btn1:hover {
+  background-color: rgb(190, 18, 60);
+}
+
+.btn2 {
+  color: rgb(225, 30, 72);
+}
