@@ -1,5 +1,5 @@
 import styles from "./Feedback.module.css";
-import userImg from "../../assets/images/feedbackUser.avif";
+import userImg from "../../../assets/images/feedbackUser.avif";
 
 export function Feedback() {
   return (

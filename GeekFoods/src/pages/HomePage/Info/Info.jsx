@@ -1,5 +1,5 @@
 import styles from "./Info.module.css";
-import InfoImg from "../../assets/images/InfoImg.jpeg";
+import InfoImg from "../../../assets/images/InfoImg.jpeg";
 
 export function Info() {
   console.log(styles);

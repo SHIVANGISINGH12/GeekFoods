@@ -1,16 +1,15 @@
 import "./App.css";
-import { Feedback } from "./components/Feedback/Feedback";
 import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
-import { Hero } from "./components/Hero/Hero";
-import { Info } from "./components/Info/Info";
+import { Home } from "./pages/HomePage/Home";
+import { Quotes } from "./pages/QuotesPage/Quotes";
+
 
 function App() {
   return (<>
   <Header/>
-  <Hero/>
-  <Info/>
-  <Feedback/>
+  {/* <Home/> */}
+  <Quotes/>
   <Footer/>
   </>);
 }

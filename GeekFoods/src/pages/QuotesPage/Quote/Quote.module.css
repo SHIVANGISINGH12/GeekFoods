@@ -1,0 +1,26 @@
+.quotesContainer{
+    width: 85%;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.message{
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: .03rem;
+    line-height: 2.2rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.saidBy{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: rgb(119,124,137);
+}
